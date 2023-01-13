@@ -1,0 +1,14 @@
+.about__text__wrapper {
+  font-family: var(--font-secondary);
+  font-weight: lighter;
+  padding: 0 1rem;
+  line-height: 1.5;
+  margin: 3rem 0;
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
+}
+.about__text__wrapper p {
+    color: #cccccc;
+}
+.about__text__wrapper strong {
+    color: var(--color-text);
+}

@@ -1,0 +1,41 @@
+.banner__intro {
+  position: relative;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.banner__title {
+  font-size: clamp(3rem, 12vw, 7rem);
+  display: block;
+  text-align: center;
+  letter-spacing: 1rem;
+  font-weight: lighter;
+  /* -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--color-text); */
+}
+
+.banner__subtitle {
+  letter-spacing: 1.2rem;
+  font-size: clamp(0.5rem, 3vw, 1.5rem);
+  font-family: var(--font-secondary);
+  text-align: center;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .banner__intro {
+    height: 70vh;
+    gap: 1.5rem;
+    line-height: 1.3;
+  }
+  .banner__title {
+    letter-spacing: 0.5rem;
+  }
+  .banner__subtitle {
+    letter-spacing: 0.7rem;
+  }
+}
